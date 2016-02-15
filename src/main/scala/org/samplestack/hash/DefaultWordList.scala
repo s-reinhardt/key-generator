@@ -1,7 +1,7 @@
 package org.samplestack.hash
 
 /**
- * Created by Stephan Reinhardt on 11.11.2015.
+ * Created by Stephan Reinhardt on ..5.
  */
 object DefaultWordList extends Words{
 
@@ -9,21 +9,21 @@ object DefaultWordList extends Words{
     "ack", "alabama", "alanine", "alaska", "alpha", "angel", "apart", "april",
   "arizona", "arkansas", "artist", "asparagus", "aspen", "august", "autumn",
   "avocado", "bacon", "bakerloo", "batman", "beer", "berlin", "beryllium",
-  "black", "blossom", "blue", "bluebird", "bravo", "bulldog", "burger",
+  "black", "blossom", "blue", "bluebird", "bravo", "bulldog","bud", "burger",
   "butter", "california", "carbon", "cardinal", "carolina", "carpet", "cat",
   "ceiling", "charlie", "chicken", "coffee", "cola", "cold", "colorado",
-  "comet", "connecticut", "crazy", "cup", "dakota", "december", "delaware",
+  "comet", "connecticut", "crazy", "cup","cap", "dakota", "december", "delaware",
   "delta", "diet", "don", "double", "early", "earth", "east", "echo",
   "edward", "eight", "eighteen", "eleven", "emma", "enemy", "equal",
   "failed", "fanta", "fifteen", "fillet", "finch", "fish", "five", "fix",
   "floor", "florida", "football", "four", "fourteen", "foxtrot", "freddie",
   "friend", "fruit", "gee", "georgia", "glucose", "golf", "green", "grey",
-  "hamper", "happy", "harry", "hawaii", "helium", "high", "horse","hot", "hotel",
+  "hammer", "hamper", "happy", "harry", "hawaii", "helium", "high", "holger", "horse","hot", "hotel",
   "hydrogen", "idaho", "illinois", "india", "indigo", "ink", "iowa",
-  "island", "item", "jersey", "jig", "john", "johnny", "juliet", "july", "jupiter",
+  "island", "item", "jersey", "jim", "jig", "john", "johnny", "juliet", "july", "jupiter",
   "kansas", "kentucky", "kilo", "kindergarden","king", "kitten", "lactose", "lake", "lamp",
   "lemon", "leopard", "lima", "lion", "lithium", "london", "louisiana",
-  "low", "magazine", "magnesium", "maine", "mango", "march", "mars", "mascha",
+  "low", "magazine", "magnesium", "maine", "mango", "march", "mario", "mars", "mascha",
   "maryland", "massachusetts", "may", "mexico", "michigan", "mike",
   "minnesota", "mirror", "mississippi", "missouri", "mobile", "mockingbird",
   "monkey", "montana", "moon", "mountain", "muppet", "music", "nebraska",
