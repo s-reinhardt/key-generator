@@ -22,12 +22,8 @@ class IdGenerationTest extends FlatSpec with Matchers {
     val list = List.fill(count)(UnsafeId.randomId(2,2,"-"))
 
     assert(list.size == count)
-    implicit def enhanceWithContainsDuplicates[T](s:List[T]) = new {
-      def containsDuplicates = (s.distinct.size != s.size)
-    }
-    list.distinct.size
-    println(list.diff(list.distinct).distinct)
-    assert(!list.containsDuplicates)
+    assert(list.distinct.size == list.size)
+
     info("masstest seems to work.")
   }
 }
