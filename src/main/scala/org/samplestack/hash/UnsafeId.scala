@@ -9,13 +9,9 @@ import scala.util.Random
 object UnsafeId{
 
   private val default = DefaultWordList.getWorkds
-  private val extended = ExtendedWordList.getWorkds
+  private val extended = PreWordList.getWorkds
 
-  private def randomId():String = {
-    randomId(1,1,"-")
-  }
-
-  private def randomId(pre: Int = 1, post: Int = 1, separator: String = "-"):String = {
+  private def randomId(pre: Int, post: Int, separator: String):String = {
     if(pre < 0 && post < 0) return ""
 
     val preNumberList = Seq.fill(pre)(Random.nextInt(extended.size))

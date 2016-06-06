@@ -19,7 +19,7 @@ class IdGenerationTest extends FlatSpec with Matchers {
 
   it must "readable id should be a little unique" in {
     val count = 5000
-    val list = List.fill(count)(UnsafeId(2,2,"-"))
+    val list = List.fill(count)(UnsafeId(1,2,"-"))
 
     assert(list.size == count)
     assert(list.distinct.size == list.size)

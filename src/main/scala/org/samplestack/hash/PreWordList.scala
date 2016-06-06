@@ -3,7 +3,7 @@ package org.samplestack.hash
 /**
  * Created by Stephan Reinhardt on 11.11.2015.
  */
-object ExtendedWordList extends Words {
+object PreWordList extends Words {
 
 
   override def getWorkds(): Seq[String] = Seq("abandoned", "able", "absolute", "adorable", "adventurous", "academic",
