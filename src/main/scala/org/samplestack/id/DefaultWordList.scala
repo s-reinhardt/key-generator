@@ -1,4 +1,4 @@
-package org.samplestack.hash
+package org.samplestack.id
 
 /**
  * Created by Stephan Reinhardt on ..5.
